@@ -1,0 +1,30 @@
+{
+    "name": "Manticore",
+    "description": "Insectoid-feline creatures, known well for their mastery over poisons. Great if you don't want to deal with spiders!",
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "impact": 2,
+    "upgrades":[
+      {
+        "condition": "minecraft:end/enter_end",
+        "origin": "dweebscape:thryme-evolved",
+        "announcement": "By entering the end portal, you have steeled your resolve."
+      }
+    ],
+    "powers": [
+        "dweebscape:mtc_hpdown",
+        "dweebscape:mtc_poisonimmune",
+        "dweebscape:mtc_leggingsblock",
+        "dweebscape:mtc_pickaxepaws",
+        "dweebscape:mtc_setarthropod",
+        "dweebscape:mtc_nightvision",
+        "dweebscape:mtc_spines",
+        "dweebscape:mtc_poisonstrike",
+        "dweebscape:mtc_arthropodfriend",
+        "dweebscape:mtc_climb",
+        "dweebscape:mul_oblicarnipos",
+        "dweebscape:mul_oblicarnineg",
+        "dweebscape:mtc_evofallback"
+    ]
+  }

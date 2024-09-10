@@ -1,0 +1,24 @@
+{
+    "name":"Lesser Water Hazard",
+    "description":"Being in water HURTS, and is definitely lethal. Thankfully, rain doesn't deal damage. It's reduced from the original version; and water protection is more effective.",
+    "type": "origins:damage_over_time",
+    "interval": 1200,
+    "onset_delay": 100,
+    "damage": 1.5,
+    "damage_easy": 1,
+    "damage_source": {
+        "name": "hurt_by_water",
+        "unblockable": true,
+        "bypasses_armor": true
+    },
+    "protection_enchantment": "origins:water_protection",
+    "protection_effectiveness": 8.0,
+    "condition":
+    {
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": ">",
+                "compare_to": 0.0
+    }
+            
+}

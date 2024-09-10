@@ -1,0 +1,12 @@
+{
+  "name": "Exhausted 25%",
+  "description": "While at 25% Exhaustion, your vision becomes impaired.",
+  "type": "origins:shader",
+  "shader": "minecraft:shaders/post/blur.json",
+  "condition": {
+      "type": "origins:resource",
+      "resource": "dweebscape:mim_exhaustion",
+      "comparison": ">=",
+      "compare_to": 250
+  }
+}

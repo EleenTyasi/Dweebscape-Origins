@@ -1,0 +1,36 @@
+{
+    "name": "Mimic <Prestiged>",
+    "description": "A gel-beast using a chest as a shell. Reinforced by a netherstar. All downsides are reduced; except for water related.",
+    "unchoosable": true,
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "impact": 2,
+    "powers": [
+      "dweebscape:mim_slow_rain",
+      "dweebscape:mim_hpupplus",
+      "dweebscape:mim_fallnegate",
+      "dweebscape:mim_evo_cheststorageplus",
+      "dweebscape:mim_woodarmor",
+      "dweebscape:mim_waterhazard",
+      "dweebscape:mim_hpregennull",
+      "dweebscape:mim_poisonimmune",
+      "dweebscape:mim_evo_exhaustiontick",
+      "dweebscape:mim_evo_deexhaustiontickplus",
+      "dweebscape:mim_exhaustion",
+      "dweebscape:mim_exhausted50",
+      "dweebscape:mim_exhaustion100",
+      "dweebscape:mim_ironmend",
+      "dweebscape:mim_goldmend",
+      "dweebscape:mim_diamondmend",
+      "dweebscape:mim_emeraldmend",
+      "dweebscape:mim_netheritemend",
+      "dweebscape:bon_drownmore",
+      "dweebscape:bon_waterturnon",
+      "dweebscape:bon_water_checc",
+      "dweebscape:bon_advslow_water",
+      "dweebscape:bon_swimspeeddown",
+      "dweebscape:mul_oblicarnipos",
+      "dweebscape:mul_oblicarnineg"
+    ]
+  }

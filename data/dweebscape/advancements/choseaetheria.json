@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Robo Rabbit!",
+            "bold": true,
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Chose the Aetheria origin!"
+        },
+        "icon": {
+            "item": "minecraft:note_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chose_aeth": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "dweebscape:aetheria"
+            }
+        }
+    },
+    "parent": "dweebscape:root"
+}

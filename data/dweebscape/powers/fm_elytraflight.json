@@ -1,0 +1,6 @@
+{
+  "name": "Fancy Headpiece",
+  "description": "You have a fancy robotic headset that allows you to fly as if you had an Elytra.",
+  "type": "origins:elytra_flight",
+  "render_elytra": false
+}

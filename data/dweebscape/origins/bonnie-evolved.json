@@ -1,0 +1,24 @@
+{
+    "name": "Bonnie <Enkindled>",
+    "description": "A glamcandies attuned to heat and earth. She has finally absorbed the power of a nether star, emblazoning her strength.",
+    "unchoosable": true,
+    "icon": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "impact": 2,
+    "powers": [
+      "dweebscape:bon_evo_lslow_rain",
+      "dweebscape:bon_hpup",
+      "dweebscape:bon_pickaxepaws",
+      "dweebscape:bon_fallreduct",
+      "dweebscape:bon_size",
+      "dweebscape:bon_jump-increase",
+      "dweebscape:bon_fireproof",
+      "dweebscape:bon_waterturnon",
+      "dweebscape:bon_water_checc",
+      "dweebscape:bon_evo_ladvslow_water",
+      "dweebscape:bon_swimspeeddown",
+      "dweebscape:mul_oblicarnipos",
+      "dweebscape:mul_oblicarnineg"
+    ]
+  }

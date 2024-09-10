@@ -1,0 +1,9 @@
+{
+    "name":"Flame Guard",
+    "description": "You are immune to fire, but not lava.",
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "inFire"
+}
+}

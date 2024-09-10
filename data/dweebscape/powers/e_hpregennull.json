@@ -1,0 +1,5 @@
+{
+    "name":"Plush Construct",
+    "description": "You have no natural health regen.",
+    "type": "origins:disable_regen"
+}

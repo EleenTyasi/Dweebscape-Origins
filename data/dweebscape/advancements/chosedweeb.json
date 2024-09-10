@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Dorkish Kitsune",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Choose the 'Dweeb' Origin."
+        },
+        "icon": {
+            "item": "minecraft:fox_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chose_dweb": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "dweebscape:dweeb"
+            }
+        }
+    },
+    "parent": "dweebscape:root"
+}

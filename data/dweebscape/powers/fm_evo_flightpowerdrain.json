@@ -1,0 +1,14 @@
+{
+    "name": "Flight Power Drain",
+    "description": "Drains your flight power when you are flying.",
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "dweebscape:fm_evo_flightpower",
+        "change": -20
+    },
+    "condition": {
+        "type": "origins:creative_flying"
+    }
+}

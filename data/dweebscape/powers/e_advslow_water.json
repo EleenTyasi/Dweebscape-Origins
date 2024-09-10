@@ -1,0 +1,43 @@
+{
+    "name": "Soggy Fluff",
+    "description": "You move slower after exiting water. You move slower in water.",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+              "type":"origins:apply_effect",
+              "effect":{
+                  "effect": "minecraft:slowness",
+                  "duration": 1200,
+                  "amplifier": 1
+              }
+            },
+            {
+                    "type": "origins:change_resource",
+                    "resource": "dweebscape:e_water_checc",
+                    "operation": "set",
+                    "change": 0
+            }
+        ]
+    },
+    "condition":{
+        "type": "origins:and",
+        "conditions": [
+            {
+              "type": "origins:resource",
+              "resource": "dweebscape:e_water_checc",
+              "comparison": "==",
+              "compare_to":1
+            },
+            {
+              "type": "origins:fluid_height",
+              "inverted": true,  
+              "fluid": "minecraft:water",
+              "comparison": ">=",
+              "compare_to": 0.5
+            }
+        ]
+    }
+
+}

@@ -1,0 +1,17 @@
+{
+    "name":"Netherian Pyro Ball",
+    "description": "By pressing the primary ability button, you hurl a single, large destructive fireball. BOOM!",
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:fireball",
+    "cooldown": 300,
+    "tag":"{ExplosionPower:2}",
+    "hud_render": {
+        "should_render": false
+    },
+    "count": 1,
+    "interval": 5,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    }
+}

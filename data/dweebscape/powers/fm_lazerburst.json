@@ -1,0 +1,17 @@
+{
+    "name":"Lazer Burst",
+    "description": "By using the primary ability button, fire a burst of 3 lazer-arrows!",
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:arrow",
+    "cooldown": 60,
+    "tag": "{pickup:0b}",
+    "hud_render": {
+        "should_render": false
+    },
+    "count": 3,
+    "interval": 10,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    }
+}

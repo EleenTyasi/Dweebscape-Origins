@@ -1,0 +1,23 @@
+{
+    "name": "Obligate Carnivore",
+    "description": "You can eat vegetables, sure... but you prefer meat. Eating vegetables doesn't give much hunger back, but eating meat gives a lot more.",
+    "hidden": true,
+    "type":"origins:modify_food",
+    "food_modifier": {
+        "name": "Reduced food points",
+        "operation": "addition",
+        "value": -2.0
+    },
+    "saturation_modifier": {
+        "name": "reduced saturation points",
+        "operation": "addition",
+        "value": -2.0
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient":
+        {
+            "tag":"dweebscape:diet-veggie"
+        }
+    }
+}

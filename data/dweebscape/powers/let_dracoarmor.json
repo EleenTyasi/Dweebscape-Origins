@@ -1,0 +1,11 @@
+{
+    "name": "Draco Armor",
+    "description": "You have a small amount of natural armor.",
+    "type": "origins:attribute",
+    "modifier":{
+        "name": "GenArmor",
+        "attribute": "minecraft:generic.armor",
+        "value": 1.0,
+        "operation": "addition"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Plushcat <Umbralite>",
+    "description": "Entity made from fabric, a challenging playstyle. From crafting a beacon from a nether star, she has finally gained a hold on the world.",
+    "unchoosable": true,
+    "icon": {
+      "item": "minecraft:purple_wool"
+    },
+    "impact": 3,
+    "powers": [
+      "dweebscape:e_nofood",
+      "dweebscape:e_nohunger",
+      "dweebscape:e_fallreduct",
+      "dweebscape:e_water_checc",
+      "dweebscape:e_swimspeeddown",
+      "dweebscape:e_waterturnon",
+      "dweebscape:e_advslow_water",
+      "dweebscape:e_slow_rain",
+      "dweebscape:e_hpup",
+      "dweebscape:e_flameguard_infire",
+      "dweebscape:e_flameguard_onfire",
+      "dweebscape:e_evo_stringmend",
+      "dweebscape:e_hpregennull",
+      "dweebscape:aet_satbomb"
+    ]
+  }

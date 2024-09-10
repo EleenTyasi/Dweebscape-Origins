@@ -1,0 +1,19 @@
+{
+    "name": "Lesser Rain Hate",
+    "description": "Being in rain slows you down. Has lesser maximum stacks than normal Rain Hate.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 5,
+    "duration_per_stack": 100,
+    "tick_rate": 20,
+    "effect": {
+     "effect": "minecraft:slowness",
+     "show_particles": false,
+     "is_ambient": true,
+     "show_icon": true,
+     "amplifier": 0
+    },
+    "condition": {
+     "type": "origins:in_rain"
+    }   
+}

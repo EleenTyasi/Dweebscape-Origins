@@ -1,0 +1,31 @@
+{
+    "name": "Bonnie",
+    "description": "A glamcandies attuned to heat and earth, she doesn't do well in water. Don't mention her height, she's sensitive about it.",
+    "icon": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "impact": 2,
+    "upgrades":
+    {
+      "condition": "dweebscape:shinystar",
+      "origin": "dweebscape:bonnie-evolved",
+      "announcement": "You absorb the nether star, and have attained new strength."
+    },
+    "powers": [
+      "dweebscape:bon_slow_rain",
+      "dweebscape:bon_hpup",
+      "dweebscape:bon_pickaxepaws",
+      "dweebscape:bon_fallreduct",
+      "dweebscape:bon_size",
+      "dweebscape:bon_jump-increase",
+      "dweebscape:bon_fireproof",
+      "dweebscape:bon_netherstarevo",
+      "dweebscape:bon_drownmore",
+      "dweebscape:bon_waterturnon",
+      "dweebscape:bon_water_checc",
+      "dweebscape:bon_advslow_water",
+      "dweebscape:bon_swimspeeddown",
+      "dweebscape:mul_oblicarnipos",
+      "dweebscape:mul_oblicarnineg"
+    ]
+  }

@@ -1,0 +1,14 @@
+{
+    "name": "Picky Eater",
+    "description": "this shouldn't be visible",
+    "hidden": true,
+    "type":"origins:prevent_item_use",
+    "item_condition": 
+      {
+        "type": "origins:ingredient",
+        "ingredient":
+        {
+            "tag":"dweebscape:picky-hate"
+        }
+      }
+}

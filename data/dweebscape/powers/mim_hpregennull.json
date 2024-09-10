@@ -1,0 +1,5 @@
+{
+    "name":"Critically Endangered",
+    "description": "You have no natural health regen due to your species being hunted.",
+    "type": "origins:disable_regen"
+}

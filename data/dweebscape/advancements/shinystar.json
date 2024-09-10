@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Ooh, Shiny Star!",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Hold and use a Nether Star to evolve. (You can get one by killing the Wither.)"
+        },
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "witherstar": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dweebscape:chosebonnie"
+}

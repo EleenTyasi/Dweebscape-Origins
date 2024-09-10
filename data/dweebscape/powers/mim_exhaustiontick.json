@@ -1,0 +1,20 @@
+{
+    "name": "Tiring Tick",
+    "description": "This shouldn't be visible. You gain exhaustion over time while moving.",
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "interval": 600,
+        "entity_action":
+        {
+            "type": "origins:modify_resource",
+            "resource":"dweebscape:mim_exhaustion",
+            "modifier": 
+            {
+                "operation": "addition",
+                "value": 50
+            }
+        },
+        "condition": {
+            "type": "origins:moving"
+        }
+}

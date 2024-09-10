@@ -1,0 +1,13 @@
+{
+    "name": "DrownMore",
+    "description": "Shouldn't be visible. Affects player's air meter in water.",
+    "hidden": true,
+    "type": "eggolib:modify_breathing",
+    "lose_air_interval": 8,
+    "breathable_block_condition": {
+        "type": "origins:fluid",
+        "fluid_condition": {
+            "type": "origins:empty"
+        }
+    }
+}

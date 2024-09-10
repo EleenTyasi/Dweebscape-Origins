@@ -1,0 +1,8 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition":{
+        "type": "origins:food"
+    },
+    "name": "Plush Body",
+    "description": "You cannot process food with your body, rendering food inedible."
+}

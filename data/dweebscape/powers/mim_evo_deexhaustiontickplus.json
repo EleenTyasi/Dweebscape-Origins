@@ -1,0 +1,20 @@
+{
+    "name": "Improved Rest Tick",
+    "description": "This shouldn't be visible. You lose more exhaustion from sneaking.",
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "interval": 120,
+        "entity_action":
+        {
+            "type": "origins:modify_resource",
+            "resource":"dweebscape:mim_exhaustion",
+            "modifier": 
+            {
+                "operation": "addition",
+                "value": -180
+            }
+        },
+    "condition": {
+    "type": "origins:sneaking"
+    }
+}

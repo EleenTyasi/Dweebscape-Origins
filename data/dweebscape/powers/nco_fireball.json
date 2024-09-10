@@ -1,0 +1,16 @@
+{
+    "name":"Pyro Ball",
+    "description": "By pressing the primary ability button, you hurl two fireballs.",
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:small_fireball",
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": false
+    },
+    "count": 2,
+    "interval": 5,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    }
+}

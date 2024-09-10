@@ -1,0 +1,24 @@
+{
+    "schemaVersion": 1,
+    "id": "dweebscape",
+    "name": "Dweebscape: Eleen's Origins",
+    "description": "An array of Eleen's handmade Origins!",
+    "version": "2.6.1 beta",
+    "icon": "pack.png",
+    "authors": ["Eleen", "Luna (for slight revisions)"],
+    "depends":
+    {
+        "fabric": "*",
+        "origins": "*",
+        "pehkui": "*",
+        "eggolib": "*",
+        "fabricloader": ">=0.11.3",
+        "minecraft": "1.20.1"
+    },
+    "contact": 
+    {
+        "discord": "Eleen",
+        "twitch": "https://twitch.tv/myrajuseleen",
+        "twitter": "https://twitter.com/myrajuseleen"
+    }
+}

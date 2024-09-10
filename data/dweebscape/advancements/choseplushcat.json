@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "ITS SO FLUFFY!!",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Choose the Eleen Origin."
+        },
+        "icon": {
+            "item": "minecraft:purple_wool"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chose_eleen": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "dweebscape:eleen"
+            }
+        }
+    },
+    "parent": "dweebscape:root"
+}

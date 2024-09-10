@@ -1,0 +1,22 @@
+{
+    "name": "Cinderace <Netherian>",
+    "description": "Pokemon. A nimble, agile fire-typed rabbit-like creature. From visiting a horrid structure in the nether, it now has new power.",
+    "unchoosable": true,
+    "icon": {
+      "item": "minecraft:fire_charge"
+    },
+    "impact": 3,
+    "powers": 
+    [
+        "dweebscape:nco_spdup",
+        "dweebscape:nco_hpup",
+        "dweebscape:nco_fireimmune",
+        "dweebscape:nco_evo_lwaterhazard",
+        "dweebscape:nco_fallreduct",
+        "dweebscape:nco_jumpboost",
+        "dweebscape:nco_atkup",
+        "dweebscape:nco_evo_fireball",
+        "dweebscape:nco_veggie",
+        "dweebscape:nco_evo_ldefd"
+    ]
+  }

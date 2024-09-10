@@ -1,0 +1,17 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "dweebscape:e_water_checc",
+        "operation": "set",
+        "change": 1
+    },
+    "condition": {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">=",
+        "compare_to": 0.5
+       }   
+}

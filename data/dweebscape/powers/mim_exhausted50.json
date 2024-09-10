@@ -1,0 +1,17 @@
+{
+  "name": "Exhausted 50%",
+  "description": "While at 50% Exhaustion, you move slower.",
+  "type": "origins:modify_attribute",
+  "attribute": "minecraft:generic.movement_speed",
+  "modifier": 
+  {
+    "operation": "multiply_base_multiplicative",
+    "value": -0.6
+  },
+  "condition": {
+      "type": "origins:resource",
+      "resource": "dweebscape:mim_exhaustion",
+      "comparison": ">=",
+      "compare_to": 500
+  }
+}

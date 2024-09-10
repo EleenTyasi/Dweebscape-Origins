@@ -1,0 +1,11 @@
+{
+    "name": "Fragility",
+    "description": "You take extra damage.",
+    "type": "origins:modify_damage_taken",
+    "modifier": 
+    {
+        "name": "defense down",
+        "operation": "addition",
+        "value": 3
+    }
+}

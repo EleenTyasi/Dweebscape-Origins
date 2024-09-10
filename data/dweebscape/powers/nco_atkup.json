@@ -1,0 +1,11 @@
+{
+    "name": "Superheat",
+    "description": "You deal extra damage.",
+    "type": "origins:attribute",
+    "modifier":{
+        "name": "Max Damage increase",
+        "attribute": "minecraft:generic.attack_damage",
+        "value": 4,
+        "operation": "addition"
+    }
+}

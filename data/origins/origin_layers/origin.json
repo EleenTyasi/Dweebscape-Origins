@@ -1,0 +1,23 @@
+{
+    "origins": [
+      "dweebscape:mimic",
+      "dweebscape:mimic-evolved",
+      "dweebscape:bonnie",
+      "dweebscape:bonnie-evolved",
+      "dweebscape:letrian",
+      "dweebscape:letrian-evolved",
+      "dweebscape:thryme",
+      "dweebscape:thryme-evolved",
+      "dweebscape:eleen",
+      "dweebscape:eleen-evolved",
+      "dweebscape:aetheria",
+      "dweebscape:aetheria-evolved",
+      "dweebscape:dweeb",
+      "dweebscape:dweeb-evolved",
+      "dweebscape:nico-evolved",
+      "dweebscape:nico",
+      "dweebscape:fawful",
+      "dweebscape:fawful-evolved"
+    ],
+    "replace": false
+  }

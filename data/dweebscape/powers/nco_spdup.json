@@ -1,0 +1,12 @@
+{
+    "name":"Trained Runner",
+    "description": "You have increased speed.",
+    "type": "origins:attribute",
+    "modifier":
+    {
+        "name": "Max health increase",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 0.12,
+        "operation": "addition"
+    }
+}

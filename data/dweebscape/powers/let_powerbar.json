@@ -1,0 +1,12 @@
+{
+    "name": "Power Strike",
+    "description": "By dealing damage, you build up your Power bar. When the bar is full, you unleash a powerful strike that knocks back foes.",
+    "type": "origins:resource",
+    "min": 0,
+    "max": 13,
+    "hud_render": {
+        "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 1,
+        "should_render": true
+    }
+}

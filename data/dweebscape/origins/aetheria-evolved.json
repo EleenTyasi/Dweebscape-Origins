@@ -1,0 +1,23 @@
+{
+    "name": "Aetheria <Administrator>",
+    "description": "A robotic entity in the form of a rabbit singer. Challenging. Don't get her wet. She has finally attained administrator access to her operating system, and is now able to use her powers to their fullest extent.",
+    "unchoosable": true,
+    "icon": {
+      "item": "minecraft:note_block"
+    },
+    "impact": 3,
+    "powers": [
+      "dweebscape:aet_nofood",
+      "dweebscape:aet_nohunger",
+      "dweebscape:aet_evo_lwaterhazard",
+      "dweebscape:aet_hpregennull",
+      "dweebscape:aet_evo_ironmend",
+      "dweebscape:aet_evo_battery",
+      "dweebscape:aet_evo_batterydrain",
+      "dweebscape:aet_evo_recharge",
+      "dweebscape:aet_evo_batterydepleted",
+      "dweebscape:aet_evo_fallreduct",
+      "dweebscape:aet_evo_jumpcharge",
+      "dweebscape:aet_satbomb"
+    ]
+  }

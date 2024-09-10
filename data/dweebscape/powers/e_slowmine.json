@@ -1,0 +1,21 @@
+{
+    "name": "Plushpaw",
+    "description": "You mine things a little slower.",
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:mining_speed 0.8"
+        },
+        "entity_action_respawned": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:mining_speed 0.8"
+        },
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:mining_speed 1"
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:mining_speed 1"
+    }
+}

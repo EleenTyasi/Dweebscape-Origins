@@ -1,0 +1,22 @@
+{
+    "name": "Evolution Fallback",
+    "description": "This power allows the player to access their evolved form after they have changed origins, and the advancement has been earned already. This should not be visible to the player, and is only used as a fallback for when the player changes origins and has already earned their evolved form.",
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "entity_action":
+        {
+            "type": "origins:execute_command",
+            "command": "origin set @s origins:origin dweebscape:fawful-evolved"
+        },
+        "condition": {
+            "type": "origins:block_in_radius",
+            "block_condition": {
+                "type": "origins:block",
+                "block": "minecraft:beacon"
+            },
+            "radius": 9,
+            "shape": "cube",
+            "comparison": ">=",
+            "compare_to": 1
+        }
+}

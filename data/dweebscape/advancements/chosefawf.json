@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "I HAVE FURY!",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Choose the Fawful Origin."
+        },
+        "icon": {
+            "item": "minecraft:netherite_helmet"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {        
+        "chose_fawf": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+            "origin": "dweebscape:fawful"
+        }
+    }},
+    "parent": "dweebscape:root"
+}

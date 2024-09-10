@@ -1,0 +1,20 @@
+{
+	"name": "Countrasting",
+    "description": "When you melee attack an enemy, you sting with your tails. This has a chance to inflict Wither.",
+    "type": "origins:action_on_hit",
+	"bientity_action": {
+		"type": "origins:chance",
+		"action": {
+			"type": "origins:target_action",
+			"action": {
+				"type": "origins:apply_effect",
+				"effect": {
+					"effect": "minecraft:wither",
+					"duration": 60,
+					"amplifier": 2
+				}
+			}
+		},
+		"chance": 0.35
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Flight Power Regen",
+    "description": "Regens your flight power when you aren't flying and while you are grounded.",
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "dweebscape:fm_evo_flightpower",
+        "change": 20
+    },
+    "condition": {
+        "type": "origins:on_block"
+    }
+}

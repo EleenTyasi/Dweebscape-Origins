@@ -1,0 +1,26 @@
+{
+    "name": "Beanish (Fawful) <Dark Star Ambassador>",
+    "description": "An inventative species of bean-person. Rambles on about being furious. From defeating the wither and crafting a beacon, his strength has been unlocked. ",
+    "unchoosable": true,
+    "icon": {
+      "item": "minecraft:tnt"
+    },
+    "impact": 1,
+    "powers": [
+        "dweebscape:fm_hpup",
+        "dweebscape:fm_evo_darkstararmor",
+        "dweebscape:fm_evo_flight",
+        "dweebscape:fm_evo_flightpower",
+        "dweebscape:fm_evo_flightpowerdrain",
+        "dweebscape:fm_evo_flightpowerregen",
+        "dweebscape:fm_lazerburst",
+        "dweebscape:fm_evo_helmstorage",
+        "dweebscape:fm_size",
+        "dweebscape:fm_jump-increase",
+        "dweebscape:fm_furybar",
+        "dweebscape:fm_furycharge",
+        "dweebscape:fm_furyattack",
+        "dweebscape:fm_helmetblock",
+        "dweebscape:fm_veggie"
+    ]
+  }

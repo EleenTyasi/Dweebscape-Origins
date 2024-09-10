@@ -1,0 +1,10 @@
+{
+    "name": "Strong Paws",
+    "description": "By controlling earth aether, you can mine stone with your hands.",
+    "type": "origins:modify_harvest",
+    "allow": true,
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "origins:natural_stone"
+    }
+  }

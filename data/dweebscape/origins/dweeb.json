@@ -1,0 +1,32 @@
+{
+    "name": "Dweeb",
+    "description": "A void kitsune, venturing into a new world. He's a picky eater, but he's great at night.",
+    "icon": {
+      "item": "minecraft:fox_spawn_egg"
+    },
+    "impact": 3,
+    "upgrades":
+    {
+      "condition": "dweebscape:dweebwitherslay",
+      "origin": "dweebscape:dweeb-evolved",
+      "announcement": "Slaughtering the wither now allows you to attune to this realms void. You have gained new strength."
+    },
+    "powers": 
+    [
+        "dweebscape:dwb_hpup",
+        "dweebscape:dwb_berrylover",
+        "dweebscape:dwb_hpregennull",
+        "dweebscape:dwb_endsight",
+        "dweebscape:dwb_biomesensitive_negative",
+        "dweebscape:dwb_biomesensitive_positive",
+        "dweebscape:dwb_nightspeed",
+        "dweebscape:dwb_exhaustion",
+        "dweebscape:dwb_exhaustiontick",
+        "dweebscape:dwb_deexhaustiontick",
+        "dweebscape:dwb_exhausted50",
+        "dweebscape:dwb_exhaustion100",
+        "dweebscape:dwb_pickyeatbuff",
+        "dweebscape:dwb_pickyeatnoeat",
+        "dweebscape:dwb_evofallback"
+    ]
+  }

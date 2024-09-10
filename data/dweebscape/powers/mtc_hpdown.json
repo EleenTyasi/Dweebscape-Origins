@@ -1,0 +1,11 @@
+{
+    "name": "Health Penalty",
+    "description": "You have 3 less hearts.",
+    "type": "origins:attribute",
+    "modifier":{
+        "name": "Max Health decrease",
+        "attribute": "minecraft:generic.max_health",
+        "value": -6,
+        "operation": "addition"
+    }
+}

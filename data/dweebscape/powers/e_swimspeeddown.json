@@ -1,0 +1,9 @@
+{
+    "name": "Plushie Stuffing",
+    "description": "You swim slower in water, and have less breath.",
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+        "operation": "addition",
+        "value": -0.015
+    }
+}

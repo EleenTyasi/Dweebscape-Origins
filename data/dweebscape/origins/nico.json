@@ -1,0 +1,29 @@
+{
+    "name": "Cinderace",
+    "description": "Pokemon. A nimble, agile fire-typed rabbit-like creature.",
+    "icon": {
+      "item": "minecraft:fire_charge"
+    },
+    "upgrades":[
+      {
+        "condition": "minecraft:nether/find_fortress",
+        "origin": "dweebscape:nico-evolved",
+        "announcement": "The horrid presence of the nether fortress fills you with might."
+      }
+    ],
+    "impact": 3,
+    "powers": 
+    [
+        "dweebscape:nco_spdup",
+        "dweebscape:nco_hpup",
+        "dweebscape:nco_fireimmune",
+        "dweebscape:nco_waterhazard",
+        "dweebscape:nco_fallreduct",
+        "dweebscape:nco_jumpboost",
+        "dweebscape:nco_atkup",
+        "dweebscape:nco_fireball",
+        "dweebscape:nco_veggie",
+        "dweebscape:nco_defd",
+        "dweebscape:nco_evofallback"
+    ]
+  }

@@ -1,0 +1,11 @@
+{
+    "name": "Flight Helmet",
+    "description": "Your helmet has been upgraded to allow you to fly as if you were in creative mode. You can only fly for one minute, which is slowly recharged while you are on the ground.",
+    "type": "origins:creative_flight",
+    "condition": {
+        "type": "origins:resource",
+        "resource": "dweebscape:fm_evo_flightpower",
+        "comparison": ">",
+        "compare_to": 0
+    }
+}

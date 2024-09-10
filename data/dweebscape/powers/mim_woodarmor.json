@@ -1,0 +1,11 @@
+{
+    "name": "Wooded Armor",
+    "description": "You have a decent amount of natural armor.",
+    "type": "origins:attribute",
+    "modifier":{
+        "name": "GenArmor",
+        "attribute": "minecraft:generic.armor",
+        "value": 4.0,
+        "operation": "addition"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition":{
+        "type": "origins:food"
+    },
+    "name": "Robotic",
+    "description": "You do not need to eat, so you don't bother with food."
+}

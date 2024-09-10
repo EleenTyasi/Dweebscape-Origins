@@ -1,0 +1,10 @@
+{
+    "name": "Manticore Strength",
+    "description": "You have unnatural strength behind your paws, allowing you to mine up to stone level with your bare paws.",
+    "type": "origins:modify_harvest",
+    "allow": true,
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "dweebscape:stonepick"
+    }
+  }

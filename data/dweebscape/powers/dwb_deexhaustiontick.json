@@ -1,0 +1,21 @@
+{
+    "name": "Exhaustion tick",
+    "description": "This shouldn't be visible. You lose exhaustion over time in the overworld.",
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "interval": 600,
+        "entity_action":
+        {
+            "type": "origins:modify_resource",
+            "resource":"dweebscape:dwb_exhaustion",
+            "modifier": 
+            {
+                "operation": "addition",
+                "value": -25
+            }
+        },
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:overworld"
+        }
+}

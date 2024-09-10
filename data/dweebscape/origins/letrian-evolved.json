@@ -1,0 +1,19 @@
+{
+    "name": "Letrian <Anima>",
+    "description": "Dragon and foxlike creatures. From seeing the ender dragon, they have felt a connection to the end. Their powers have been enhanced.",
+    "unchoosable": true,
+    "icon": {
+      "item": "minecraft:goat_horn"
+    },
+    "impact": 1,
+    "powers": [
+        "dweebscape:let_movespeed",
+        "dweebscape:let_evo_dracoarmor",
+        "dweebscape:let_evo_berrylover",
+        "dweebscape:let_evo_sugarrush",
+        "dweebscape:let_powerbar",
+        "dweebscape:let_poweradd",
+        "dweebscape:let_powerattack",
+        "dweebscape:let_superluck"
+    ]
+  }

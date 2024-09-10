@@ -1,0 +1,27 @@
+{
+    "name": "Letrian",
+    "description": "Dragon and foxlike creatures. Well known for their luck and strength.",
+    "icon": {
+      "item": "minecraft:goat_horn"
+    },
+    "impact": 1,
+    "upgrades":[
+      {
+        "condition": "minecraft:end/enter_end",
+        "origin": "dweebscape:letrian-evolved",
+        "announcement": "You gaze in awe at the sight of the ender dragon. The energy of the End empowers you."
+      }
+    ],
+    "powers": [
+        "dweebscape:let_movespeed",
+        "dweebscape:let_helmetblock",
+        "dweebscape:let_dracoarmor",
+        "dweebscape:let_berrylover",
+        "dweebscape:let_sugarrush",
+        "dweebscape:let_powerbar",
+        "dweebscape:let_poweradd",
+        "dweebscape:let_powerattack",
+        "dweebscape:let_superluck",
+        "dweebscape:let_evofallback"
+    ]
+  }

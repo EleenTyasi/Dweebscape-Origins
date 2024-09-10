@@ -1,0 +1,10 @@
+{
+    "name":"Voidsight",
+    "description": "You naturally have night vision while in the end.",
+    "type": "origins:night_vision",
+    "strength": 1,
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_end"
+    }
+}

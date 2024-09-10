@@ -1,0 +1,11 @@
+{
+    "name": "Lesser Fragility",
+    "description": "You take extra damage. It's lessened from the original Fragility.",
+    "type": "origins:modify_damage_taken",
+    "modifier": 
+    {
+        "name": "defense down",
+        "operation": "addition",
+        "value": 1.5
+    }
+}

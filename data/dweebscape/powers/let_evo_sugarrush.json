@@ -1,0 +1,56 @@
+{
+    "name": "Sugar Rush +",
+    "description":"You can consume sugar to get haste! But it upsets your stomach. Sugar Rush + gives you a higher level of haste and a longer duration, and reduces the hunger side effect.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "mainhand",
+                "action": {
+                    "type": "origins:consume",
+                    "amount": 1
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effects":[ {
+                    "effect": "minecraft:haste",
+                    "duration": 3600,
+                    "amplifier": 2,
+                    "is_ambient": false,
+                    "show_particles": true,
+                    "show_icon": true
+                },
+                {
+                    "effect":"minecraft:hunger",
+                    "duration":1200,
+                    "amplifier":0,
+                    "is_ambient": false,
+                    "show_particles": true,
+                    "show_icon": true
+                }
+                ]
+            }
+        ]
+    },
+    "cooldown": 600,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": false
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:sugar"
+            }
+        }
+    }
+}

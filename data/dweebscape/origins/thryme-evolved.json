@@ -1,0 +1,22 @@
+{
+    "name": "Manticore <Emboldened>",
+    "description": "Insectoid-feline creatures, known well for their mastery over poisons. From entering the end, they are no longer meek. They are now emboldened, and ready to take on the world.",
+    "unchoosable": true,
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "impact": 2,
+    "powers": [
+        "dweebscape:mtc_hpdown",
+        "dweebscape:mtc_poisonimmune",
+        "dweebscape:mtc_pickaxepaws",
+        "dweebscape:mtc_setarthropod",
+        "dweebscape:mtc_nightvision",
+        "dweebscape:mtc_evo_spines",
+        "dweebscape:mtc_evo_poisonstrike",
+        "dweebscape:mtc_arthropodfriend",
+        "dweebscape:mtc_climb",
+        "dweebscape:mul_oblicarnipos",
+        "dweebscape:mul_oblicarnineg"
+    ]
+  }

@@ -1,0 +1,12 @@
+{
+    "name": "Battery",
+    "description": "You have a battery that can be recharged with redstone. You slowly lose battery over time.",
+    "type": "origins:resource",
+    "start_value": 600,
+    "min": 0,
+    "max": 600,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 2
+    }
+}

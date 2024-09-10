@@ -1,0 +1,40 @@
+{
+    "name": "Iron Absorb +",
+    "description":"You can consume iron to heal. Heals more than standard Iron Absorb.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "mainhand",
+                "action": {
+                    "type": "origins:consume",
+                    "amount": 1
+                }
+            },
+            {
+                "type": "origins:heal",
+                "amount": 8
+                }
+        ]
+    },
+    "cooldown": 140,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": false
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:iron_ingot"
+            }
+        }
+    }
+}

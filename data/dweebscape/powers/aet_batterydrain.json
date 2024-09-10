@@ -1,0 +1,17 @@
+{
+    "name": "Battery Depletion",
+    "description": "This shouldn't be visible. You drain battery over time.",
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "interval": 1200,
+        "entity_action":
+        {
+            "type": "origins:modify_resource",
+            "resource":"dweebscape:aet_battery",
+            "modifier": 
+            {
+                "operation": "addition",
+                "value": -15
+            }
+        }
+}
