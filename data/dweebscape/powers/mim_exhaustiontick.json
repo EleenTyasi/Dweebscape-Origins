@@ -3,7 +3,7 @@
     "description": "This shouldn't be visible. You gain exhaustion over time while moving.",
     "hidden": true,
     "type": "origins:action_over_time",
-    "interval": 600,
+    "interval": 120,
         "entity_action":
         {
             "type": "origins:modify_resource",
@@ -11,7 +11,7 @@
             "modifier": 
             {
                 "operation": "addition",
-                "value": 50
+                "value": 5
             }
         },
         "condition": {
