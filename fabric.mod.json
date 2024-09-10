@@ -9,6 +9,7 @@
     "depends":
     {
         "fabric": "*",
+        "lunar_nerd_origin_utils": "*",
         "origins": "*",
         "pehkui": "*",
         "eggolib": "*",
@@ -19,6 +20,5 @@
     {
         "discord": "Eleen",
         "twitch": "https://twitch.tv/myrajuseleen",
-        "twitter": "https://twitter.com/myrajuseleen"
     }
 }
