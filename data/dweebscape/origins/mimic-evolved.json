@@ -1,6 +1,6 @@
 {
     "name": "Mimic <Prestiged>",
-    "description": "A gel-beast using a chest as a shell. Reinforced by a netherstar. All downsides are reduced; except for water related.",
+    "description": "Reinforced by a Nether Star, Mimic’s downsides are reduced, though water still remains a threat. Exhaustion builds slower, no longer causing blindness at 25%, and recovery is improved. Storage capacity is increased in the chest shell. Immune to poison and fall damage, but still vulnerable to water. Keep moving carefully and devour treasure to heal.",
     "unchoosable": true,
     "icon": {
       "item": "minecraft:chest"

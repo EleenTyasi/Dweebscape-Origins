@@ -1,6 +1,6 @@
 {
     "name": "Plushcat <Umbralite>",
-    "description": "Entity made from fabric, a challenging playstyle. From crafting a beacon from a nether star, she has finally gained a hold on the world.",
+    "description": "Fabric entity with a tenuous grip on the world. Still immune to fire but vulnerable to water. No hunger, no fall damage, but slowed by rain and water. Healing via string is now stronger, though natural HP regen remains nonexistent. Immune to hunger, fireproof, and still a challenge—keep her away from water and mend her carefully.",
     "unchoosable": true,
     "icon": {
       "item": "minecraft:purple_wool"

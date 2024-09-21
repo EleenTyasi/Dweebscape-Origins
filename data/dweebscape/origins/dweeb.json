@@ -1,6 +1,6 @@
 {
     "name": "Dweeb",
-    "description": "A void kitsune, venturing into a new world. He's a picky eater, but he's great at night.",
+    "description": "A void kitsune, venturing into a new world.  Slightly higher HP, and berries give him extra benefits. Nightfall makes him faster when exposed to the sky. The End grants him night vision, but hotter biomes slow him down. He’s a picky eater, with some foods boosting his abilities, while others are off-limits. In the Nether, exhaustion is a constant threat—at 50%, his speed drops; at 100%, hunger kicks in. In the Overworld, exhaustion fades fast. No daytime HP regen, so plan your moves wisely.",
     "icon": {
       "item": "minecraft:fox_spawn_egg"
     },

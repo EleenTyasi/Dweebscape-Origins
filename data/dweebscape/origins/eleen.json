@@ -1,6 +1,6 @@
 {
     "name": "Plushcat",
-    "description": "Entity made from fabric, a challenging playstyle. Fire does nothing, but stay away from water!",
+    "description": "Fabric entity immune to fire but highly vulnerable to water. Fall damage? Not a concern. But step into rain or water, and you’ll slow to a crawl. Mining is slower, and without a weapon, she does no damage at all. Can’t eat, can’t get hungry, and no natural HP regen. Mend yourself with string to stay in the fight, and keep out of the rain.",
     "icon": {
       "item": "minecraft:purple_wool"
     },

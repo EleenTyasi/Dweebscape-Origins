@@ -1,6 +1,6 @@
 {
     "name": "Cinderace <Netherian>",
-    "description": "Pokemon. A nimble, agile fire-typed rabbit-like creature. From visiting a horrid structure in the nether, it now has new power.",
+    "description": "Empowered by the Nether, this fire-typed rabbit can now hurl a Ghast fireball. Defense has improved but remains lower than most. Water still poses a threat, but its damage is reduced. Immune to fire, with enhanced speed, strength, and jump height—Cinderace now burns brighter with its newfound power.",
     "unchoosable": true,
     "icon": {
       "item": "minecraft:fire_charge"
