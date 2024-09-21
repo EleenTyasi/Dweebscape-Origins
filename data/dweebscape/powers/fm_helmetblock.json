@@ -5,7 +5,7 @@
     "head": {
         "inverted": true,
         "type": "origins:enchantment",
-        "enchantment": "lunar_nerd_origin_utils:molding",
+        "enchantment": "lunar_origins:molding",
         "comparison": ">",
         "compare_to": 0
     }

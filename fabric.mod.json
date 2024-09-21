@@ -9,7 +9,7 @@
     "depends":
     {
         "fabric": "*",
-        "lunar_origins_core": "*",
+        "lunar_origins": "*",
         "origins": "*",
         "pehkui": "*",
         "eggolib": "*",
