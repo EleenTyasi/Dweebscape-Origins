@@ -3,13 +3,13 @@
     "id": "dweebscape",
     "name": "Dweebscape: Eleen's Origins",
     "description": "An array of Eleen's handmade Origins!",
-    "version": "2.6.1 beta",
+    "version": "2.7.0-beta",
     "icon": "pack.png",
     "authors": ["Eleen", "Luna (for slight revisions)"],
     "depends":
     {
         "fabric": "*",
-        "lunar_origins": "*",
+        "lunar_origins_core": "*",
         "origins": "*",
         "pehkui": "*",
         "eggolib": "*",
