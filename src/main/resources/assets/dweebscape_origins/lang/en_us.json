@@ -8,13 +8,13 @@
   "item.dweebscape_origins.mimicitem": "Mimic Origin Icon",
   "item.dweebscape_origins.thrymeitem": "Manticore Origin Icon",
   "item.dweebscape_origins.feriitem": "Letrian Origin Icon",
-  "item.dweebscape_origins.eleenitem.tooltip_1": "It's useless.",
-  "item.dweebscape_origins.bonnieitem.tooltip_1": "If you found a way to get this in survival, bug report it.",
-  "item.dweebscape_origins.aetheriaitem.tooltip_1":  "/give command? Meh. That's fine.",
-  "item.dweebscape_origins.dweebitem.tooltip_1":  "This shouldn't be here in your inventory!!",
-  "item.dweebscape_origins.fawfulitem.tooltip_1": "Drop this item on a cactus for free netherite! (note: this is a joke)",
-  "item.dweebscape_origins.nicoitem.tooltip_1": "Probably best to destroy this item...",
-  "item.dweebscape_origins.mimicitem.tooltip_1": "Illegal item. Put it up to display it on an item frame.",
-  "item.dweebscape_origins.thrymeitem.tooltip_1": "bro fr thought this item did anything xDDDD",
-  "item.dweebscape_origins.feriitem.tooltip_1": "How the hell did you get this?"
+  "item.dweebscape_origins.eleenitem.tooltip": "It's useless.",
+  "item.dweebscape_origins.bonnieitem.tooltip": "If you found a way to get this in survival, bug report it.",
+  "item.dweebscape_origins.aetheriaitem.tooltip":  "/give command? Meh. That's fine.",
+  "item.dweebscape_origins.dweebitem.tooltip":  "This shouldn't be here in your inventory!!",
+  "item.dweebscape_origins.fawfulitem.tooltip": "Drop this item on a cactus for free netherite! (note: this is a joke)",
+  "item.dweebscape_origins.nicoitem.tooltip": "Probably best to destroy this item...",
+  "item.dweebscape_origins.mimicitem.tooltip": "Illegal item. Put it up to display it on an item frame.",
+  "item.dweebscape_origins.thrymeitem.tooltip": "bro fr thought this item did anything xDDDD",
+  "item.dweebscape_origins.feriitem.tooltip": "How the hell did you get this?"
 }
