@@ -3,7 +3,7 @@
     "description": " Still vulnerable to water, with movement and fall damage immunity tied to her battery charge. Redstone powers her advanced systems. She can't eat and doesn't need to – being a robot and all. No natural regeneration. Battery full? Enhanced movement and jump power. Battery empty? Expect a dramatic slowdown. Self-repair enabled. Now with full administrator access, her abilities reach their true potential. Keep her charged and dry for peak performance",
     "unchoosable": true,
     "icon": {
-      "item": "minecraft:note_block"
+      "item": "dweebscape_origins:aetheriaitem"
     },
     "impact": 3,
     "powers": [

@@ -3,7 +3,7 @@
     "description": "Now empowered by a Nether Star, Bonnie’s connection to heat and earth blazes stronger. Still fireproof, but lava remains a threat. Rain and water still slow her, but less so in this form. Fall damage is reduced, and she can break stone with ease. Bonus HP, an improved jump, and her paws remain as powerful as ever. Strict carnivore—meat is her preference, but she can still manage with veggies when needed. Her newfound strength has emblazoned her abilities.",
     "unchoosable": true,
     "icon": {
-      "item": "minecraft:amethyst_shard"
+      "item": "dweebscape_origins:bonnieitem"
     },
     "impact": 2,
     "powers": [

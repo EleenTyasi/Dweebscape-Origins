@@ -2,7 +2,7 @@
     "name": "Beanish (Fawful)",
     "description": "Short, furious, and inventive with innate Elytra flight. Packs a laser attack and gains extra HP. Builds fury over time, with the next melee strike dealing double damage once full. No meat, no helmet, and carries a second inventory (9 slots) that drops its contents on death. Tinker with tech, soar through the skies, and unleash the fury!",
     "icon": {
-      "item": "minecraft:tnt"
+      "item": "dweebscape_origins:fawfulitem"
     },
     "impact": 1,
     "upgrades":[

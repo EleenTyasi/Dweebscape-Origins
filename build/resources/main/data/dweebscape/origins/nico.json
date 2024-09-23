@@ -2,7 +2,7 @@
     "name": "Cinderace",
     "description": "A nimble, fire-typed rabbit-like creature with speed, strength, and high HP. Immune to fire but vulnerable to water, taking damage over time when exposed. No fall damage and can jump higher than most. Can launch a blaze fireball with ease but takes more damage in return. Only eats vegetables and bread—keep them dry and blazing fast.",
     "icon": {
-      "item": "minecraft:fire_charge"
+      "item": "dweebscape_origins:nicoitem"
     },
     "upgrades":[
       {

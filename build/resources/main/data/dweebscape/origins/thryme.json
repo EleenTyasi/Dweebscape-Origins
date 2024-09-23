@@ -2,7 +2,7 @@
     "name": "Manticore",
     "description": "Insectoid-feline creatures with a mastery over poisons. Immune to poison and wither, but with lower HP. Spines deal damage to attackers but only while Manticore is above 50% HP. Bug-like mobs won’t attack, and unarmed strikes inflict poison. Pickaxe-like paws and natural thorns make them dangerous in close combat. Night vision ensures they see in the dark, but they’re vulnerable to Bane of Arthropods. An obligate carnivore with a venomous bite.",
     "icon": {
-      "item": "minecraft:nether_star"
+      "item": "dweebscape_origins:thrymeitem"
     },
     "impact": 2,
     "upgrades":[

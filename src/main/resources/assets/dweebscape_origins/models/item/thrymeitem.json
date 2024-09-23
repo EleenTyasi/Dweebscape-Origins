@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "dweebscape_origins:item/feriitem"
+    "layer0": "dweebscape_origins:item/thrymeitem"
   }
 }
