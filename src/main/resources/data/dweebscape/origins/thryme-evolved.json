@@ -3,7 +3,7 @@
     "description": "Strengthened after entering the End, this insectoid-feline now delivers even more lethal strikes. Spines deal increased damage but only when Manticore is above 50% HP. Poison strikes have evolved into the more dangerous Wither effect. Immune to poison and wither, they retain their bug-like allies and night vision. With reinforced claws and sharper instincts, they are ready to face greater challenges.",
     "unchoosable": true,
     "icon": {
-      "item": "minecraft:nether_star"
+      "item": "dweebscape_origins:thrymeitem"
     },
     "impact": 2,
     "powers": [

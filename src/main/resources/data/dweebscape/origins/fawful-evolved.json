@@ -3,7 +3,7 @@
     "description": "Short, furious, and now empowered by the Dark Star. Limited creative-style flight replaces Elytra, with energy drained mid-air and restored on the ground—beware fall damage if it runs out. Dark Star Armor boosts defense, and helmet storage now holds double chest capacity without losing items on death. Still can’t eat meat, but packs a laser attack and a powerful fury mechanic for devastating melee strikes.",
     "unchoosable": true,
     "icon": {
-      "item": "minecraft:tnt"
+      "item": "dweebscape_origins:fawfulitem"
     },
     "impact": 1,
     "powers": [

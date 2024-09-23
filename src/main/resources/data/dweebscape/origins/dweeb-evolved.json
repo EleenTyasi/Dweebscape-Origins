@@ -3,7 +3,7 @@
     "description": "A void kitsune, venturing into a new world.  Tougher than before, with even more HP to take hits. Night vision in the End, faster speeds under the night sky, and enhanced powers in colder biomes. Berries remain a favorite, boosting their abilities. Still sensitive to heat and exhaustion in the Nether. Now at full strength, Dweeb’s powers reach their peak—stay out of the sun and embrace the night.",
     "unchoosable": true,
     "icon": {
-      "item": "minecraft:fox_spawn_egg"
+      "item": "dweebscape_origins:dweebitem"
     },
     "impact": 3,
     "powers": 

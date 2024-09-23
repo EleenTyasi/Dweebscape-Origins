@@ -2,7 +2,7 @@
     "name": "Letrian",
     "description": "A dragon-fox hybrid known for luck and strength. Slower, with natural armor and horns that block helmets. Consumes sugar for Haste at the cost of Hunger. Power bar builds for enhanced attacks, and Superluck grants natural Fortune. Berries provide better benefits. A unique mix of resilience and fortune—don’t underestimate their luck.",
     "icon": {
-      "item": "minecraft:goat_horn"
+      "item": "dweebscape_origins:feriitem"
     },
     "impact": 1,
     "upgrades":[

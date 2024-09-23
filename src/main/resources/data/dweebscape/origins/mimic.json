@@ -2,7 +2,7 @@
     "name": "Mimic",
     "description": "Gel-beast using a chest as a shell, vulnerable to water which molds their form. Immune to poison and fall damage, but can’t regenerate HP. Devours treasure to heal, and can store items in their chest. Exhaustion builds while moving, blurring vision at 25%, halving speed at 50%, and rapidly draining hunger at 100%. Must crouch to recover. No leggings, but natural armor offers protection",
     "icon": {
-      "item": "minecraft:chest"
+      "item": "dweebscape_origins:mimicitem"
     },
     "impact": 2,
     "upgrades":

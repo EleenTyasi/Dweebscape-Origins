@@ -2,7 +2,7 @@
     "name": "Aetheria",
     "description": "Immune to hunger, immune to fatigue. Weak to water – exposure deals damage over time. Requires Redstone to power her systems. No natural regeneration. When the battery drains, she slows to a crawl. Battery full? Enjoy enhanced mobility with amplified jumps. Cannot evolve until Netherite is crafted – unlock advanced features. Handle with care, and keep her dry!",
     "icon": {
-      "item": "minecraft:note_block"
+      "item": "dweebscape_origins:aetheriaitem"
     },
     "upgrades":[
       {
