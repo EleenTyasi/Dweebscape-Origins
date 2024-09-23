@@ -1,0 +1,30 @@
+{
+    "name": "Beanish (Fawful)",
+    "description": "Short, furious, and inventive with innate Elytra flight. Packs a laser attack and gains extra HP. Builds fury over time, with the next melee strike dealing double damage once full. No meat, no helmet, and carries a second inventory (9 slots) that drops its contents on death. Tinker with tech, soar through the skies, and unleash the fury!",
+    "icon": {
+      "item": "minecraft:tnt"
+    },
+    "impact": 1,
+    "upgrades":[
+      {
+        "condition": "minecraft:nether/create_beacon",
+        "origin": "dweebscape:fawful-evolved",
+        "announcement": "You've learned how to tinker with magical tech from this world. With this, you have improved your armor."
+      }
+    ],
+    "powers": [
+        "dweebscape:fm_hpup",
+        "dweebscape:fm_darkstararmor",
+        "dweebscape:fm_elytraflight",
+        "dweebscape:fm_lazerburst",
+        "dweebscape:fm_helmstorage",
+        "dweebscape:fm_size",
+        "dweebscape:fm_jump-increase",
+        "dweebscape:fm_furybar",
+        "dweebscape:fm_furycharge",
+        "dweebscape:fm_furyattack",
+        "dweebscape:fm_helmetblock",
+        "dweebscape:fm_veggie",
+        "dweebscape:fm_evofallback"
+    ]
+  }

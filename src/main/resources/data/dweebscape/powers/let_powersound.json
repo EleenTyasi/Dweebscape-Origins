@@ -1,0 +1,20 @@
+{
+    "name": "Power Burst",
+    "description":"This shouldn't be visible. Plays a sound effect on Power Attack kill.",
+    "hidden": true,
+    "type": "origins:self_action_on_kill",
+
+    "entity_action":{
+                "type":"origins:play_sound",
+                "sound":"minecraft:entity.generic.explode",
+                "volume": 2.5
+    },
+    
+
+    "condition":{
+        "type": "origins:resource",
+        "resource": "dweebscape:let_powerbar",
+        "comparison": "==",
+        "compare_to": 1
+    }
+}

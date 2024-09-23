@@ -1,0 +1,36 @@
+{
+    "name": "Mimic <Prestiged>",
+    "description": "Reinforced by a Nether Star, Mimic’s downsides are reduced, though water still remains a threat. Exhaustion builds slower, no longer causing blindness at 25%, and recovery is improved. Storage capacity is increased in the chest shell. Immune to poison and fall damage, but still vulnerable to water. Keep moving carefully and devour treasure to heal.",
+    "unchoosable": true,
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "impact": 2,
+    "powers": [
+      "dweebscape:mim_slow_rain",
+      "dweebscape:mim_hpupplus",
+      "dweebscape:mim_fallnegate",
+      "dweebscape:mim_evo_cheststorageplus",
+      "dweebscape:mim_woodarmor",
+      "dweebscape:mim_waterhazard",
+      "dweebscape:mim_hpregennull",
+      "dweebscape:mim_poisonimmune",
+      "dweebscape:mim_evo_exhaustiontick",
+      "dweebscape:mim_evo_deexhaustiontickplus",
+      "dweebscape:mim_exhaustion",
+      "dweebscape:mim_exhausted50",
+      "dweebscape:mim_exhaustion100",
+      "dweebscape:mim_ironmend",
+      "dweebscape:mim_goldmend",
+      "dweebscape:mim_diamondmend",
+      "dweebscape:mim_emeraldmend",
+      "dweebscape:mim_netheritemend",
+      "dweebscape:bon_drownmore",
+      "dweebscape:bon_waterturnon",
+      "dweebscape:bon_water_checc",
+      "dweebscape:bon_advslow_water",
+      "dweebscape:bon_swimspeeddown",
+      "dweebscape:mul_oblicarnipos",
+      "dweebscape:mul_oblicarnineg"
+    ]
+  }

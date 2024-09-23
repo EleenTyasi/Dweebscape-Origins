@@ -1,0 +1,44 @@
+{
+    "name": "Mimic",
+    "description": "Gel-beast using a chest as a shell, vulnerable to water which molds their form. Immune to poison and fall damage, but can’t regenerate HP. Devours treasure to heal, and can store items in their chest. Exhaustion builds while moving, blurring vision at 25%, halving speed at 50%, and rapidly draining hunger at 100%. Must crouch to recover. No leggings, but natural armor offers protection",
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "impact": 2,
+    "upgrades":
+    {
+      "condition": "dweebscape:shinystar",
+      "origin": "dweebscape:mimic-evolved",
+      "announcement": "You stash the nether star in your chest. You feel braver."
+    },
+    "powers": [
+      "dweebscape:mim_slow_rain",
+      "dweebscape:mim_hpupplus",
+      "dweebscape:mim_fallnegate",
+      "dweebscape:mim_cheststorage",
+      "dweebscape:mim_netherstarevo",
+      "dweebscape:mim_woodarmor",
+      "dweebscape:mim_waterhazard",
+      "dweebscape:mim_hpregennull",
+      "dweebscape:mim_leggingsblock",
+      "dweebscape:mim_poisonimmune",
+      "dweebscape:mim_exhaustiontick",
+      "dweebscape:mim_deexhaustiontick",
+      "dweebscape:mim_exhaustion",
+      "dweebscape:mim_exhausted25",
+      "dweebscape:mim_exhausted50",
+      "dweebscape:mim_exhaustion100",
+      "dweebscape:mim_ironmend",
+      "dweebscape:mim_goldmend",
+      "dweebscape:mim_diamondmend",
+      "dweebscape:mim_emeraldmend",
+      "dweebscape:mim_netheritemend",
+      "dweebscape:bon_drownmore",
+      "dweebscape:bon_waterturnon",
+      "dweebscape:bon_water_checc",
+      "dweebscape:bon_advslow_water",
+      "dweebscape:bon_swimspeeddown",
+      "dweebscape:mul_oblicarnipos",
+      "dweebscape:mul_oblicarnineg"
+    ]
+  }

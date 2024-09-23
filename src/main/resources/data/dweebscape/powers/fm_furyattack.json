@@ -1,0 +1,25 @@
+{
+    "name": "Mega Strike",
+    "description": "This shouldn't be visible. Hitting something with max fury deals double damage.",
+    "hidden": true,
+    "type":"origins:modify_damage_dealt",
+    "condition": {
+        "type": "origins:resource",
+        "resource": "dweebscape:fm_furybar",
+        "comparison": "==",
+        "compare_to": 20
+    },
+    "modifier":
+    {
+        "name": "Double Damage while at max fury meter.",
+        "operation": "multiply_total",
+        "value": 2
+    },
+    "self_action":
+    {
+        "type":"origins:change_resource",
+        "resource":"dweebscape:fm_furybar",
+        "operation":"set",
+        "change": 0
+    }
+}

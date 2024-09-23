@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Craft Netherite Block",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Craft a netherite block, and evolve your origin!"
+        },
+        "icon": {
+            "item": "minecraft:netherite_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "craftnetheriteblock": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:netherite_block"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "craftnetheriteblock"
+        ]
+    ],
+
+    "parent": "dweebscape:choseaetheria"
+}

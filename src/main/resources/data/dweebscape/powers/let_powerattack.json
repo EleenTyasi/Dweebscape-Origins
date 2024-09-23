@@ -1,0 +1,25 @@
+{
+    "name": "Mega Strike",
+    "description": "This shouldn't be visible. Hitting something with max power deals double damage.",
+    "hidden": true,
+    "type":"origins:modify_damage_dealt",
+    "condition": {
+        "type": "origins:resource",
+        "resource": "dweebscape:let_powerbar",
+        "comparison": "==",
+        "compare_to": 13
+    },
+    "modifier":
+    {
+        "name": "Double Damage while at max power meter.",
+        "operation": "multiply_total",
+        "value": 2
+    },
+    "self_action":
+    {
+        "type":"origins:change_resource",
+        "resource":"dweebscape:let_powerbar",
+        "operation":"set",
+        "change": 0
+    }
+}

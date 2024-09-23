@@ -1,0 +1,12 @@
+{
+  "name": "Chest Waist",
+  "description": "Your chest prevents you from wearing leggings of any kind.",
+  "type": "origins:restrict_armor",
+  "legs": {
+    "inverted": true,
+    "type": "origins:enchantment",
+    "enchantment": "lunar_origins:molding",
+    "comparison": ">",
+    "compare_to": 0
+  }
+}

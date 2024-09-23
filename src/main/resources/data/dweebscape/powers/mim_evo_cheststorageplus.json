@@ -1,0 +1,10 @@
+{
+    "name": "Mimic Storage +",
+    "description": "You have a impressive amount of storage; and due to evolution, your chest won't shatter upon dying.",
+    "type": "origins:inventory",
+    "container_type": "double_chest",
+    "drop_on_death": false,
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

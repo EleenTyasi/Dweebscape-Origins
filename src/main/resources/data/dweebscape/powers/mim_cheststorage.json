@@ -1,0 +1,10 @@
+{
+    "name": "Mimic Storage",
+    "description": "You have a massive amount of storage in your chest. Be careful, as if you die, it'll drop EVERYTHING.",
+    "type": "origins:inventory",
+    "container_type": "chest",
+    "drop_on_death": true,
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Cinderace <Netherian>",
+    "description": "Empowered by the Nether, this fire-typed rabbit can now hurl a Ghast fireball. Defense has improved but remains lower than most. Water still poses a threat, but its damage is reduced. Immune to fire, with enhanced speed, strength, and jump height—Cinderace now burns brighter with its newfound power.",
+    "unchoosable": true,
+    "icon": {
+      "item": "minecraft:fire_charge"
+    },
+    "impact": 3,
+    "powers": 
+    [
+        "dweebscape:nco_spdup",
+        "dweebscape:nco_hpup",
+        "dweebscape:nco_fireimmune",
+        "dweebscape:nco_evo_lwaterhazard",
+        "dweebscape:nco_fallreduct",
+        "dweebscape:nco_jumpboost",
+        "dweebscape:nco_atkup",
+        "dweebscape:nco_evo_fireball",
+        "dweebscape:nco_veggie",
+        "dweebscape:nco_evo_ldefd"
+    ]
+  }

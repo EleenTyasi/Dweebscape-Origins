@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "dweebscape_origins",
+  "version": "2.7.2-SB",
+  "name": "Dweebscape: Eleen's Origins",
+  "description": "A variety of critter based origins from Eleen's realm.",
+  "authors": [],
+  "contact": {},
+  "license": "MPL-2.0",
+  "icon": "assets/dweebscape_origins/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.eleentyasi.dweebscape_origins.client.Dweebscape_originsClient"
+    ],
+    "main": [
+      "io.github.eleentyasi.dweebscape_origins.Dweebscape_origins"
+    ]
+  },
+  "mixins": [
+    "dweebscape_origins.mixins.json",
+    {
+      "config": "dweebscape_origins.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "eggolib": "*",
+    "pehkui": "*",
+    "lunar_origins_core": "*",
+    "origins": "*",
+    "fabricloader": ">=0.16.5",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}

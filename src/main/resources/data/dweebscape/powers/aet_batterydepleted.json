@@ -1,0 +1,24 @@
+{
+    "name": "Low Power Mode",
+    "description": "While at 0% Battery, you move slower.",
+    "type": "origins:modify_attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "modifier": 
+    {
+      "operation": "multiply_base_multiplicative",
+      "value": -0.8
+    },
+    "condition": {
+        "type": "origins:resource",
+        "resource": "dweebscape:aet_battery",
+        "comparison": "==",
+        "compare_to": 0
+    },
+    "badges": [
+        {
+            "type":"origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Battery: You have a battery. It depletes over time, and is recharged with redstone. Certain actions deplete the battery."
+        }
+    ]
+}

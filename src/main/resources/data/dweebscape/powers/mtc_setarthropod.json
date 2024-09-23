@@ -1,0 +1,6 @@
+{
+    "name": "Insectoid Feline",
+    "description":"You are vulnerable to the 'Bane of Arthropods' enchantment.",
+    "type": "origins:entity_group",
+    "group": "arthropod"
+}

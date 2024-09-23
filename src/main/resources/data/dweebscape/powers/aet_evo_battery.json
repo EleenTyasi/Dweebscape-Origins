@@ -1,0 +1,12 @@
+{
+    "name": "Evolved Battery",
+    "description": "You have a battery that can be recharged with redstone. You slowly lose battery over time. Has a higher capacity than the normal battery.",
+    "type": "origins:resource",
+    "start_value": 2600,
+    "min": 0,
+    "max": 2600,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 2
+    }
+}

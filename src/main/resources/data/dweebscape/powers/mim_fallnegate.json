@@ -1,0 +1,12 @@
+{
+    "name": "Springy Ooze",
+    "description": "Due to your gelatinous body, fall damage doesn't hurt.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition":{
+        "type": "origins:from_falling"
+    },
+    "modifier": {
+        "operation": "multiply_total_multiplicative",
+        "value": -1.0
+      }
+}

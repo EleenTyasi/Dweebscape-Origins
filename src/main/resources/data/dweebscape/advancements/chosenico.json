@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Firebunny!",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Choose the cinderace origin!"
+        },
+        "icon": {
+            "item": "minecraft:fire_charge"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chose_buny": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "dweebscape:nico"
+            }
+        }
+    },
+    "parent": "dweebscape:root"
+}

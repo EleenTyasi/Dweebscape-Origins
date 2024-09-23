@@ -1,0 +1,15 @@
+{
+    "name": "Evolution Fallback",
+    "description": "This should not be visible. Upon refighting the Wither, you will evolve.",
+    "type": "origins:self_action_on_kill",
+    "hidden": true,
+    "entity_action":{
+        "type": "origins:execute_command",
+        "command": "origin set @s origins:origin dweebscape:dweeb-evolved"
+    },
+
+    "condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:wither"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Manticore <Emboldened>",
+    "description": "Strengthened after entering the End, this insectoid-feline now delivers even more lethal strikes. Spines deal increased damage but only when Manticore is above 50% HP. Poison strikes have evolved into the more dangerous Wither effect. Immune to poison and wither, they retain their bug-like allies and night vision. With reinforced claws and sharper instincts, they are ready to face greater challenges.",
+    "unchoosable": true,
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "impact": 2,
+    "powers": [
+        "dweebscape:mtc_hpdown",
+        "dweebscape:mtc_poisonimmune",
+        "dweebscape:mtc_pickaxepaws",
+        "dweebscape:mtc_setarthropod",
+        "dweebscape:mtc_nightvision",
+        "dweebscape:mtc_evo_spines",
+        "dweebscape:mtc_evo_poisonstrike",
+        "dweebscape:mtc_arthropodfriend",
+        "dweebscape:mtc_climb",
+        "dweebscape:mul_oblicarnipos",
+        "dweebscape:mul_oblicarnineg"
+    ]
+  }

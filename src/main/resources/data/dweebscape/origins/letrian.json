@@ -1,0 +1,27 @@
+{
+    "name": "Letrian",
+    "description": "A dragon-fox hybrid known for luck and strength. Slower, with natural armor and horns that block helmets. Consumes sugar for Haste at the cost of Hunger. Power bar builds for enhanced attacks, and Superluck grants natural Fortune. Berries provide better benefits. A unique mix of resilience and fortune—don’t underestimate their luck.",
+    "icon": {
+      "item": "minecraft:goat_horn"
+    },
+    "impact": 1,
+    "upgrades":[
+      {
+        "condition": "minecraft:end/enter_end",
+        "origin": "dweebscape:letrian-evolved",
+        "announcement": "You gaze in awe at the sight of the ender dragon. The energy of the End empowers you."
+      }
+    ],
+    "powers": [
+        "dweebscape:let_movespeed",
+        "dweebscape:let_helmetblock",
+        "dweebscape:let_dracoarmor",
+        "dweebscape:let_berrylover",
+        "dweebscape:let_sugarrush",
+        "dweebscape:let_powerbar",
+        "dweebscape:let_poweradd",
+        "dweebscape:let_powerattack",
+        "dweebscape:let_superluck",
+        "dweebscape:let_evofallback"
+    ]
+  }

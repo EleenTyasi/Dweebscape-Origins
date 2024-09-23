@@ -1,0 +1,22 @@
+{
+    "name": "Starving Exhaustion",
+    "description": "As a mimic; when you reach full exhaustion, you'll start to starve quickly...",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 100,
+    "tick_rate": 20,
+    "effect": {
+     "effect": "minecraft:hunger",
+     "show_particles": false,
+     "is_ambient": true,
+     "show_icon": false,
+     "amplifier": 3
+    },
+"condition": {
+    "type": "origins:resource",
+    "resource": "dweebscape:mim_exhaustion",
+    "comparison": "==",
+    "compare_to": 1000
+}
+}

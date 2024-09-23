@@ -1,0 +1,43 @@
+{
+    "name": "Lesser Aquabane",
+    "description": "You move slower after exiting water. You move slower in water. Reduced slowing effect from water.",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+              "type":"origins:apply_effect",
+              "effect":{
+                  "effect": "minecraft:slowness",
+                  "duration": 600,
+                  "amplifier": 0
+              }
+            },
+            {
+                    "type": "origins:change_resource",
+                    "resource": "dweebscape:bon_water_checc",
+                    "operation": "set",
+                    "change": 0
+            }
+        ]
+    },
+    "condition":{
+        "type": "origins:and",
+        "conditions": [
+            {
+              "type": "origins:resource",
+              "resource": "dweebscape:bon_water_checc",
+              "comparison": "==",
+              "compare_to":1
+            },
+            {
+              "type": "origins:fluid_height",
+              "inverted": true,  
+              "fluid": "minecraft:water",
+              "comparison": ">=",
+              "compare_to": 0.5
+            }
+        ]
+    }
+
+}

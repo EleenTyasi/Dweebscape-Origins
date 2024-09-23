@@ -1,0 +1,53 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Bug Friend",
+    "description": "Insectoid mobs, like spiders and silverfish will not be hostile to you.",
+    "interval": 20,
+    "badges": [
+        {
+            "type":"origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Insectoid mobs are affected by Bane of Arthropods."
+        }
+    ],
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team add bug"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join bug @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join bug @e[type=minecraft:spider]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join bug @e[type=minecraft:cave_spider]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join bug @e[type=minecraft:bee]"
+            },
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join bug @e[type=minecraft:silverfish]"
+            },
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join bug @e[type=minecraft:endermite]"
+            }
+        ]
+    }
+}

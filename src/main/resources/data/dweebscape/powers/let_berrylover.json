@@ -1,0 +1,19 @@
+{
+    "name": "Berry Lover",
+    "description": "Sweet berries are a boon to you, allowing you to heal a little after eating!",
+    "type": "origins:modify_food",
+    "entity_action":{
+        "type":"origins:apply_effect",
+        "effect":{
+            "effect": "minecraft:regeneration",
+            "duration": 600,
+            "amplifier": 0
+        }
+    },
+    "item_condition":{
+        "type":"origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:sweet_berries"
+        }
+    }
+}

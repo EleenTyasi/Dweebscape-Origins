@@ -1,0 +1,11 @@
+{
+    "name": "Health Boost Plus",
+    "description": "Due to your gelatinous body, you can take more of a beating.",
+    "type": "origins:attribute",
+    "modifier":{
+        "name": "Max Health increase",
+        "attribute": "minecraft:generic.max_health",
+        "value": 15,
+        "operation": "addition"
+    }
+}

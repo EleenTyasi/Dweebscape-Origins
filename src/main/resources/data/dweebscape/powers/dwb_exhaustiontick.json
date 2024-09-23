@@ -1,0 +1,21 @@
+{
+    "name": "Exhaustion tick",
+    "description": "This shouldn't be visible. You gain exhaustion over time in the nether.",
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "interval": 600,
+        "entity_action":
+        {
+            "type": "origins:modify_resource",
+            "resource":"dweebscape:dwb_exhaustion",
+            "modifier": 
+            {
+                "operation": "addition",
+                "value": 5
+            }
+        },
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:the_nether"
+        }
+}

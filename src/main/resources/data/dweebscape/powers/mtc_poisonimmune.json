@@ -1,0 +1,10 @@
+{
+    "name": "Poison Mastery",
+    "description": "Immunity to most toxins.",
+    "type": "origins:effect_immunity",
+    "effects": [
+      "minecraft:poison",
+      "minecraft:wither",
+      "minecraft:hunger"
+    ]
+}

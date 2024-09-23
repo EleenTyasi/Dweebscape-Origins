@@ -1,0 +1,44 @@
+{
+    "name": "Netherstar Evolution",
+    "description":"You can consume a nether star to evolve. You can only evolve once. This power should not be visible to players. If a player has changed origin, this power should allow them to use another nether star to evolve again.",
+    "hidden": true,
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "mainhand",
+                "action": {
+                    "type": "origins:consume",
+                    "amount": 1
+                }
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "advancement grant @s only dweebscape:shinystar"
+                },
+            {
+                "type": "origins:execute_command",
+                "command": "origin set @s origins:origin dweebscape:mimic-evolved"
+            }
+        ]
+    },
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": false
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:nether_star"
+            }
+        }
+    }
+}

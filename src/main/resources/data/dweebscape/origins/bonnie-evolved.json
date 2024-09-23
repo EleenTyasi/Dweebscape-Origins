@@ -1,0 +1,24 @@
+{
+    "name": "Bonnie <Enkindled>",
+    "description": "Now empowered by a Nether Star, Bonnie’s connection to heat and earth blazes stronger. Still fireproof, but lava remains a threat. Rain and water still slow her, but less so in this form. Fall damage is reduced, and she can break stone with ease. Bonus HP, an improved jump, and her paws remain as powerful as ever. Strict carnivore—meat is her preference, but she can still manage with veggies when needed. Her newfound strength has emblazoned her abilities.",
+    "unchoosable": true,
+    "icon": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "impact": 2,
+    "powers": [
+      "dweebscape:bon_evo_lslow_rain",
+      "dweebscape:bon_hpup",
+      "dweebscape:bon_pickaxepaws",
+      "dweebscape:bon_fallreduct",
+      "dweebscape:bon_size",
+      "dweebscape:bon_jump-increase",
+      "dweebscape:bon_fireproof",
+      "dweebscape:bon_waterturnon",
+      "dweebscape:bon_water_checc",
+      "dweebscape:bon_evo_ladvslow_water",
+      "dweebscape:bon_swimspeeddown",
+      "dweebscape:mul_oblicarnipos",
+      "dweebscape:mul_oblicarnineg"
+    ]
+  }

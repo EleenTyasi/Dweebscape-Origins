@@ -1,0 +1,12 @@
+{
+    "name": "Water Check",
+    "description": "This is meant to check if the player has exited water.",
+    "hidden": true,
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1,
+    "hud_render":{
+        "should_render": false
+    }
+
+}

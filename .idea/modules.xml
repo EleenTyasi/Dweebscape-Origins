@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dweebscape-Origins.client.iml" filepath="$PROJECT_DIR$/.idea/modules/Dweebscape-Origins.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dweebscape-Origins.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Dweebscape-Origins.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dweebscape-Origins.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Dweebscape-Origins.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dweebscape_origins.client.iml" filepath="$PROJECT_DIR$/.idea/modules/dweebscape_origins.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dweebscape_origins.main.iml" filepath="$PROJECT_DIR$/.idea/modules/dweebscape_origins.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dweebscape_origins.test.iml" filepath="$PROJECT_DIR$/.idea/modules/dweebscape_origins.test.iml" />
+    </modules>
+  </component>
+</project>

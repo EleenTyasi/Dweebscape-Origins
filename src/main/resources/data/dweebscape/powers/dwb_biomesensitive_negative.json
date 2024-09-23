@@ -1,0 +1,22 @@
+{
+    "name": "Heat Sensitive",
+    "description": "Being in hot biomes slows you down.",
+    "type": "origins:attribute",
+    "modifier":
+    {
+        "name": "Max health increase",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": -0.23,
+        "operation": "multiply_total"
+    },
+    "condition": 
+    {
+        "type": "origins:biome",
+        "condition": 
+        {
+            "type": "origins:temperature",
+            "comparison": ">",
+            "compare_to": 1.2
+        }   
+    }
+}

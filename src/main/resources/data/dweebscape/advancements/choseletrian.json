@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Big Fox Energy",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Choose the Letrian Origin."
+        },
+        "icon": {
+            "item": "minecraft:goat_horn"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chose_feri": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "dweebscape:letrian"
+            }
+        }
+    },
+    "parent": "dweebscape:root"
+}

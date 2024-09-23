@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Spiced Showdown",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Choose the Bonnie Origin."
+        },
+        "icon": {
+            "item": "minecraft:amethyst_cluster"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chose_bon": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "dweebscape:bonnie"
+            }
+        }
+    },
+    "parent": "dweebscape:root"
+}

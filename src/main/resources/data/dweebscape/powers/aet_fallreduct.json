@@ -1,0 +1,20 @@
+{
+    "name": "Impact Bracers",
+    "description": "You take no fall damage while charged.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition":
+    {
+        "type": "origins:from_falling"
+    },
+    "modifier": 
+    {
+        "operation": "multiply_total_multiplicative",
+        "value": -1
+    },
+    "condition": {
+        "type": "origins:resource",
+        "resource": "dweebscape:aet_battery",
+        "comparison": ">",
+        "compare_to": 0
+    }
+}

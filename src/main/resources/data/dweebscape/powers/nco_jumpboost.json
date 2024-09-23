@@ -1,0 +1,16 @@
+{
+    "name": "Rabbit Bounce",
+    "description": "You have passive jumpboost.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 100,
+    "tick_rate": 20,
+    "effect": {
+     "effect": "minecraft:jump_boost",
+     "show_particles": false,
+     "is_ambient": true,
+     "show_icon": false,
+     "amplifier": 1
+    }   
+}

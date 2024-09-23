@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Nervous Manticore",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Choose the Manticore Origin."
+        },
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chose_thry": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "dweebscape:thryme"
+            }
+        }
+    },
+    "parent": "dweebscape:root"
+}

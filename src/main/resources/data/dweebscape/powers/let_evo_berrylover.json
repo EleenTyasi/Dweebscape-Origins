@@ -1,0 +1,19 @@
+{
+    "name": "Berry Lover +",
+    "description": "Sweet berries are a boon to you, providing regeneration 3 for 30 seconds when eaten.",
+    "type": "origins:modify_food",
+    "entity_action":{
+        "type":"origins:apply_effect",
+        "effect":{
+            "effect": "minecraft:regeneration",
+            "duration": 600,
+            "amplifier": 2
+        }
+    },
+    "item_condition":{
+        "type":"origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:sweet_berries"
+        }
+    }
+}

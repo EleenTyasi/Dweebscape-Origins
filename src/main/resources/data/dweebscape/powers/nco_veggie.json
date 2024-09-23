@@ -1,0 +1,34 @@
+{
+  "name": "Rabbit-Diet",
+  "description": "Due to the rabbit-like nature of a cinderace, meat is impossible to process.",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "dweebscape:diet-meat"
+            }
+          },
+          {
+            "type": "origins:meat"
+          }
+        ]
+      },
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "dweebscape:diet-ignore"
+        },
+        "inverted": true
+      }
+    ]
+  }
+}

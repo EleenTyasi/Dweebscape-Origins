@@ -1,0 +1,12 @@
+{
+    "name": "Horned",
+    "description": "The horns on your head make using helmets impossible.",
+    "type": "origins:restrict_armor",
+    "head": {
+        "inverted": true,
+        "type": "origins:enchantment",
+        "enchantment": "lunar_origins:molding",
+        "comparison": ">",
+        "compare_to": 0
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Helmet Storage",
+    "description": "You have a massive amount of storage in your headgear. Due to upgrades, you keep your helmet's inventory when you die.",
+    "type": "origins:inventory",
+    "container_type": "double_chest",
+    "drop_on_death": false,
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

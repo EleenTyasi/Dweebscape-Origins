@@ -1,0 +1,25 @@
+{
+    "name": "Plushcat <Umbralite>",
+    "description": "Fabric entity with a tenuous grip on the world. Still immune to fire but vulnerable to water. No hunger, no fall damage, but slowed by rain and water. Healing via string is now stronger, though natural HP regen remains nonexistent. Immune to hunger, fireproof, and still a challenge—keep her away from water and mend her carefully.",
+    "unchoosable": true,
+    "icon": {
+      "item": "dweebscape_origins:eleenitem"
+    },
+    "impact": 3,
+    "powers": [
+      "dweebscape:e_nofood",
+      "dweebscape:e_nohunger",
+      "dweebscape:e_fallreduct",
+      "dweebscape:e_water_checc",
+      "dweebscape:e_swimspeeddown",
+      "dweebscape:e_waterturnon",
+      "dweebscape:e_advslow_water",
+      "dweebscape:e_slow_rain",
+      "dweebscape:e_hpup",
+      "dweebscape:e_flameguard_infire",
+      "dweebscape:e_flameguard_onfire",
+      "dweebscape:e_evo_stringmend",
+      "dweebscape:e_hpregennull",
+      "dweebscape:aet_satbomb"
+    ]
+  }

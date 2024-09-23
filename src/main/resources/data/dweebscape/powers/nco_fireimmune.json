@@ -1,0 +1,5 @@
+{
+    "name": "Heatproof",
+    "description": "You take no damage from fire or lava.",
+    "type": "origins:fire_immunity"
+}

@@ -1,0 +1,35 @@
+{
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2024-09-21 00:09:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-09-21 00:08:49 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2024-09-21 00:09:04 -0700",
+      "minecraft:forest": "2024-09-21 00:10:27 -0700",
+      "minecraft:plains": "2024-09-21 00:11:26 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2024-09-21 00:09:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2024-09-21 00:09:31 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

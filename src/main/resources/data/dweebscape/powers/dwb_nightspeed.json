@@ -1,0 +1,27 @@
+{
+    "name":"Night Speed",
+    "description": "You have increased speed during the night.",
+    "type": "origins:conditioned_attribute",
+    "modifier":
+    {
+        "name": "Max health increase",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 0.11,
+        "operation": "addition"
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": 
+        [
+        {"type": "origins:time_of_day",
+        "comparison": ">=",
+        "compare_to":  12000
+        },
+        {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether",
+        "inverted": true
+        }
+        ]
+    }
+}

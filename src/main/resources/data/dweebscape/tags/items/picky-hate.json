@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cod",
+    "minecraft:tropical_fish",
+    "minecraft:pufferfish",
+    "minecraft:salmon",
+    "minecraft:rabbit",
+    "minecraft:cooked_rabbit",
+    "minecraft:rabbit_stew",
+    "minecraft:cooked_cod",
+    "minecraft:cooked_mutton",
+    "minecraft:cooked_salmon",
+    "minecraft:spider_eye",
+    "minecraft:mushroom_stew",
+    "minecraft:suspicious_stew",
+    "minecraft:beetroot"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Venom Guard",
+    "description": "Immunity to most toxins. You can still be hungered by hunger.",
+    "type": "origins:effect_immunity",
+    "effects": [
+      "minecraft:poison",
+      "minecraft:wither"
+    ]
+}

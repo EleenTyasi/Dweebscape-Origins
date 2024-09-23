@@ -1,0 +1,22 @@
+{
+    "name": "Spring Step",
+    "description": "While charged, you have jump boost.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 100,
+    "tick_rate": 20,
+    "effect": {
+     "effect": "minecraft:jump_boost",
+     "show_particles": false,
+     "is_ambient": true,
+     "show_icon": false,
+     "amplifier": 0
+    },
+    "condition": {
+        "type": "origins:resource",
+        "resource": "dweebscape:aet_evo_battery",
+        "comparison": ">",
+        "compare_to": 0
+    }   
+}

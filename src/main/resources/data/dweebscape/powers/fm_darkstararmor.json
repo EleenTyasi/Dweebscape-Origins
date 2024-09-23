@@ -1,0 +1,11 @@
+{
+    "name": "Dark Star Armor",
+    "description": "Due to being exposed to the Dark Star, you have a decent amount of natural armor.",
+    "type": "origins:attribute",
+    "modifier":{
+        "name": "GenArmor",
+        "attribute": "minecraft:generic.armor",
+        "value": 4.0,
+        "operation": "addition"
+    }
+}

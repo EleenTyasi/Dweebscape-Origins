@@ -1,0 +1,8 @@
+{
+    "name":"Voidic Being",
+    "description": "You have no natural health regen during the day.",
+    "type": "origins:disable_regen",
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    }
+}

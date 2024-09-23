@@ -1,0 +1,28 @@
+{
+   "name": "Spiny Fur",
+   "description": "You have spiky fur that, while your healthy, deals damage to enemies that attack you.",
+   "type": "origins:attacker_action_when_hit",
+   "cooldown": 0,
+   "entity_action": {
+      "type": "origins:damage",
+      "amount": 3.5,
+      "source": {
+        "name": "magic",
+        "bypasses_armor": true,
+        "unblockable": true
+      }
+    },
+    "condition":{
+        "type": "origins:health",
+        "comparison": ">=",
+        "compare_to": 7
+    },
+    "badges": [
+        {
+            "type":"origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Healthy: Above 50% of their maximum HP."
+        }
+    ]
+
+}

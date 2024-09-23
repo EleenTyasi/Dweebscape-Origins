@@ -1,0 +1,12 @@
+{
+    "name": "Fury Charge",
+    "description":"This shouldn't be visible. Getting hit adds fury.",
+    "hidden": true,
+    "type":"origins:action_when_damage_taken",
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "dweebscape:fm_furybar",
+        "change": 1,
+        "operation": "add"
+    }
+}

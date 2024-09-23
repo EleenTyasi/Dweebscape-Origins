@@ -1,0 +1,23 @@
+{
+    "name": "Aetheria <Administrator>",
+    "description": " Still vulnerable to water, with movement and fall damage immunity tied to her battery charge. Redstone powers her advanced systems. She can't eat and doesn't need to – being a robot and all. No natural regeneration. Battery full? Enhanced movement and jump power. Battery empty? Expect a dramatic slowdown. Self-repair enabled. Now with full administrator access, her abilities reach their true potential. Keep her charged and dry for peak performance",
+    "unchoosable": true,
+    "icon": {
+      "item": "minecraft:note_block"
+    },
+    "impact": 3,
+    "powers": [
+      "dweebscape:aet_nofood",
+      "dweebscape:aet_nohunger",
+      "dweebscape:aet_evo_lwaterhazard",
+      "dweebscape:aet_hpregennull",
+      "dweebscape:aet_evo_ironmend",
+      "dweebscape:aet_evo_battery",
+      "dweebscape:aet_evo_batterydrain",
+      "dweebscape:aet_evo_recharge",
+      "dweebscape:aet_evo_batterydepleted",
+      "dweebscape:aet_evo_fallreduct",
+      "dweebscape:aet_evo_jumpcharge",
+      "dweebscape:aet_satbomb"
+    ]
+  }

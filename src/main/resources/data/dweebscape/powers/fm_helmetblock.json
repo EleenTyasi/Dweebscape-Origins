@@ -1,0 +1,12 @@
+{
+    "name": "Headpiece",
+    "description": "You already have your headgear equipped. Why equip a helmet???",
+    "type": "origins:restrict_armor",
+    "head": {
+        "inverted": true,
+        "type": "origins:enchantment",
+        "enchantment": "lunar_origins:molding",
+        "comparison": ">",
+        "compare_to": 0
+    }
+}

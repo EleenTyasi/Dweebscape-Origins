@@ -1,0 +1,10 @@
+{
+    "name":"Super Luck",
+    "description": "Due to unnatural luck, ores tend to drop twice as much resources.",
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "([a-z|0-9|\\-|_])*:blocks\/([a-z|0-9|\\-|_])*_ore": "dweebscape:doubledrops",
+            "minecraft:blocks/ancient_debris": "dweebscape:doubledrops"
+        }
+
+}

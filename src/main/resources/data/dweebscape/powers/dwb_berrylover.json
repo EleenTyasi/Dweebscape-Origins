@@ -1,0 +1,19 @@
+{
+    "name": "Berry Snacker",
+    "description": "Sweet berries are yummy. They give regeneration for a couple seconds!",
+    "type": "origins:modify_food",
+    "entity_action":{
+        "type":"origins:apply_effect",
+        "effect":{
+            "effect": "minecraft:regeneration",
+            "duration": 600,
+            "amplifier": 0
+        }
+    },
+    "item_condition":{
+        "type":"origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:sweet_berries"
+        }
+    }
+}
