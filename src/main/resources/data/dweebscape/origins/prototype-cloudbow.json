@@ -1,0 +1,19 @@
+{
+    "name": "Prototype: Cloudbow",
+    "description": "This is a prototypical origin still in development; Actual description coming soon.",
+    "icon": {
+      "item": "dweebscape_origins:mimicitem"
+    },
+    "impact": 3,
+    "upgrades":
+    {
+      "condition": "dweebscape:shinystar",
+      "origin": "dweebscape:prototype-cloudbow-evolved",
+      "announcement": "Not fully developed yet; this will be a stronger version."
+    },
+    "powers": [
+      "dweebscape:mul_oblicarni",
+      "dweebscape:mul_oblicarnipos",
+      "dweebscape:mul_oblicarnineg"
+    ]
+  }

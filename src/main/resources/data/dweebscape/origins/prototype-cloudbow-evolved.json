@@ -1,0 +1,13 @@
+{
+    "name": "Prototype: Cloudbow - Evolved",
+    "description": "Stronger version of the prototypical origin. Hi, github! :)",
+    "icon": {
+      "item": "dweebscape_origins:mimicitem"
+    },
+    "impact": 3,
+    "powers": [
+      "dweebscape:mul_oblicarni",
+      "dweebscape:mul_oblicarnipos",
+      "dweebscape:mul_oblicarnineg"
+    ]
+  }
