@@ -1,0 +1,27 @@
+{
+    "name": "Equine Step",
+    "description": "You can step up one block, due to being equine.",
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+    "type": "origins:and",
+    "actions": [
+    {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:step_height 2.0 @s"
+    },
+      {
+        "type": "origins:execute_command",
+        "command": "scale persist set true @s"
+      }
+    ]
+},
+"entity_action_lost": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "scale reset @s"
+      }
+    ]
+  }
+}

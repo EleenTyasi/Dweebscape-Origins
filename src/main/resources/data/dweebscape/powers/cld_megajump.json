@@ -1,0 +1,20 @@
+{
+    "name":"Instant Takeoff",
+    "description": "By pressing the primary ability key, you are able to use your wings to launch yourself into the air instantly. This has a cooldown, and requires you to not be starving.",
+    "type": "origins:launch",
+    "cooldown": 600,
+    "speed": 2.5,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 2
+    },
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    },
+    "condition": {
+        "type": "origins:food_level",
+        "comparison": ">=",
+        "compare_to": 6
+    }
+}

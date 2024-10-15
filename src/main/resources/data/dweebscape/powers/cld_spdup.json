@@ -1,0 +1,16 @@
+{
+    "name":"Expedient Hooves",
+    "description": "Due to your stature, you move faster than most on the ground.",
+    "type": "origins:attribute",
+    "modifier":
+    {
+        "name": "movespeed up",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 0.12,
+        "operation": "addition"
+    },
+    "condition": {
+        "type": "origins:creative_flying",
+        "inverted": true
+    }
+}

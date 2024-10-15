@@ -1,0 +1,44 @@
+{
+    "name": "Weather Manipulation",
+    "description": "You can invoke rain at a cost. This is a helpful ability to activate Rejuvinating Rain.",
+    "type": "origins:active_self",
+    "cooldown": 4800,
+    "key": "key.origins.secondary_active",
+    "badge": 
+    {
+        "type": "origins:tooltip",
+        "sprite": "origins:textures/gui/community/silent/badge/icons/pickaxe.png",
+        "text": "You must be exposed to the sky, It cannot be raining, Must not be starving."
+    },
+    "entity_action": {
+        "type":"origins:and",
+        "actions":
+        [
+            { 
+                "type": "origins:execute_command",
+                "command": "weather rain 4800"
+            },
+            {   
+                "type": "origins:exhaust",
+                "amount": 6
+            }
+        ],
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+                {
+                    "type": "origins:exposed_to_sky"
+                },
+                {
+                    "type": "origins:in_rain",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": ">=",
+                    "compare_to": 6
+                }
+            ]
+        }
+    }
+}

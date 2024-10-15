@@ -1,19 +1,30 @@
 {
     "name": "Prototype: Cloudbow",
-    "description": "This is a prototypical origin still in development; Actual description coming soon.",
+    "description": "(WIP) A pegasus with the ability to fly.",
     "icon": {
       "item": "dweebscape_origins:mimicitem"
     },
     "impact": 3,
     "upgrades":
     {
-      "condition": "dweebscape:shinystar",
+      "condition": "dweebscape:mimicevolution",
       "origin": "dweebscape:prototype-cloudbow-evolved",
-      "announcement": "Not fully developed yet; this will be a stronger version."
+      "announcement": "Nah, this is still prototypical. It'll still evolve, but not much will change."
     },
-    "powers": [
-      "dweebscape:mul_oblicarni",
-      "dweebscape:mul_oblicarnipos",
-      "dweebscape:mul_oblicarnineg"
+    "powers": 
+    [
+      "dweebscape:cld_veggie",
+      "dweebscape:cld_stepassist",
+      "dweebscape:cld_chestplateblock",
+      "dweebscape:cld_flight",
+      "dweebscape:cld_fallreduct",
+      "dweebscape:cld_flightspd",
+      "dweebscape:cld_megajump",
+      "dweebscape:cld_potiondurationup",
+      "dweebscape:cld_takenprojectiledamageup",
+      "dweebscape:cld_regenrain",
+      "dweebscape:cld_spdup",
+      "dweebscape:cld_raindance",
+      "dweebscape:cld_evolve_require"
     ]
-  }
+}

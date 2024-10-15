@@ -1,0 +1,20 @@
+{
+    "name":"Instant Takeoff II",
+    "description": "A stronger version of Instant Takeoff; It's cooldown is reduced; and the hunger requirement is lower.",
+    "type": "origins:launch",
+    "cooldown": 600,
+    "speed": 4,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 2
+    },
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    },
+    "condition": {
+        "type": "origins:food_level",
+        "comparison": ">=",
+        "compare_to": 3
+    }
+}

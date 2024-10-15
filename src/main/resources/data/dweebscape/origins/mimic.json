@@ -7,9 +7,9 @@
     "impact": 2,
     "upgrades":
     {
-      "condition": "dweebscape:shinystar",
+      "condition": "dweebscape:mimicevolution",
       "origin": "dweebscape:mimic-evolved",
-      "announcement": "You stash the nether star in your chest. You feel braver."
+      "announcement": "By fusing the mass of several chests into your own, you can now store more things."
     },
     "powers": [
       "dweebscape:mim_slow_rain",
@@ -39,6 +39,9 @@
       "dweebscape:bon_advslow_water",
       "dweebscape:bon_swimspeeddown",
       "dweebscape:mul_oblicarnipos",
-      "dweebscape:mul_oblicarnineg"
+      "dweebscape:mul_oblicarnineg",
+      "dweebscape:mim_evolve_require",
+      "dweebscape:mim_evolve_chestabsorb",
+      "dweebscape:mim_evolve_chestcount"
     ]
   }

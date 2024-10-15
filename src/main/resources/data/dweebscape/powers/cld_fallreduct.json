@@ -1,0 +1,24 @@
+{
+    "name": "Pegasus Bracer",
+    "description": "Due to being able to land easier, you have 50% less fall damage while healthy.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition":{
+        "type": "origins:from_falling"
+    },
+    "modifier": {
+        "operation": "multiply_total_multiplicative",
+        "value": -0.5
+      },
+    "condition":{
+        "type": "origins:health",
+        "comparison": ">=",
+        "compare_to": 10
+    },
+    "badges": [
+        {
+            "type":"origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Healthy: Above 50% of their maximum HP. Keyword."
+        }
+    ]
+}

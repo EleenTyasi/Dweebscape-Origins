@@ -1,0 +1,27 @@
+{
+    "name": "Chest Counter",
+    "description":"This shouldn't be visible. Breaking a chest will add 1 to the chest counter. If at 20, you evolve. Breaking the chest will permanently destroy it.",
+    "hidden": true,
+    "type":"origins:action_on_block_break",
+    "block_condition":{
+        "type": "origins:block",
+        "block": "minecraft:chest"
+    },
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "dweebscape:mim_evolve_chestabsorb",
+        "change": 1,
+        "operation": "add"
+    },
+    "block_action": {
+    "type": "origins:set_block",
+    "block": "minecraft:air"
+},
+    "condition":
+        {
+            "type": "origins:resource",
+            "resource": "dweebscape:mim_evolve_chestabsorb",
+            "comparison": "<=",
+            "compare_to": 20
+        }
+}

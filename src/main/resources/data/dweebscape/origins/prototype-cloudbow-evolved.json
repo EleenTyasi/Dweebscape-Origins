@@ -1,13 +1,22 @@
 {
-    "name": "Prototype: Cloudbow - Evolved",
-    "description": "Stronger version of the prototypical origin. Hi, github! :)",
-    "icon": {
-      "item": "dweebscape_origins:mimicitem"
-    },
-    "impact": 3,
-    "powers": [
-      "dweebscape:mul_oblicarni",
-      "dweebscape:mul_oblicarnipos",
-      "dweebscape:mul_oblicarnineg"
-    ]
-  }
+  "name": "Cloudbow <Harmonized>",
+  "description": "(WIP) A pegasus with the ability to fly.",
+  "icon": {
+    "item": "dweebscape_origins:mimicitem"
+  },
+  "unchoosable": true,
+  "impact": 3,
+  "powers": 
+  [
+    "dweebscape:cld_veggie",
+    "dweebscape:cld_stepassist",
+    "dweebscape:cld_chestplateblock",
+    "dweebscape:cld_flight",
+    "dweebscape:cld_fallreduct",
+    "dweebscape:cld_flightspd",
+    "dweebscape:cld_evo_megajump",
+    "dweebscape:cld_regenrain",
+    "dweebscape:cld_evo_spdup",
+    "dweebscape:cld_raindance"
+  ]
+}

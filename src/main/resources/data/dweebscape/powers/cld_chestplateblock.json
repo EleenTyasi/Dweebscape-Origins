@@ -1,0 +1,12 @@
+{
+  "name": "Winged Back",
+  "description": "Due to the wings on your back, you cannot wear chestplates without the Molding enchantment.",
+  "type": "origins:restrict_armor",
+  "chest": {
+    "inverted": true,
+    "type": "origins:enchantment",
+    "enchantment": "lunar_origins:molding",
+    "comparison": ">",
+    "compare_to": 0
+  }
+}

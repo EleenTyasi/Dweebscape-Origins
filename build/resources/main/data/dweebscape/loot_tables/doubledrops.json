@@ -2,13 +2,22 @@
     "type": "minecraft:block",
     "pools": [
         {
-            "rolls": 2,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
                     "name": "apoli:replaced_loot_table"
                 }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                }
             ]
         }
     ]
-}
+} 

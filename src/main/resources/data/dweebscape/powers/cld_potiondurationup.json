@@ -1,0 +1,26 @@
+{
+    "name":"Curse: Negative Status Duration Up",
+    "description": "Due to the world not liking the fact you can fly, All negative statuses last 50% longer.",
+    "type": "origins:modify_status_effect_duration",
+        "status_effects": 
+        [
+            "minecraft:poison",
+            "minecraft:wither",
+            "minecraft:nausea",
+            "minecraft:blindness",
+            "minecraft:hunger",
+            "minecraft:weakness",
+            "minecraft:slowness",
+            "minecraft:levitation",
+            "minecraft:glowing",
+            "minecraft:unluck",
+            "minecraft:bad_omen",
+            "minecraft:mining_fatigue",
+            "minecraft:darkness"
+        ],
+    "modifier":
+    {
+        "operation": "multiply_base_multiplicative",
+        "value": 0.5
+    }
+}

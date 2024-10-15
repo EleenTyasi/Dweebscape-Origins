@@ -1,0 +1,16 @@
+{
+    "name":"Expedient Hooves II",
+    "description": "You are now much more faster on the ground; this ability is stronger than Expedient Hooves.",
+    "type": "origins:attribute",
+    "modifier":
+    {
+        "name": "movespeed up",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 0.16,
+        "operation": "addition"
+    },
+    "condition": {
+        "type": "origins:creative_flying",
+        "inverted": true
+    }
+}

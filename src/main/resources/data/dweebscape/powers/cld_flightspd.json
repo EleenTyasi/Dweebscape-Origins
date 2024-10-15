@@ -1,0 +1,9 @@
+{
+    "name": "Swiftwinged",
+    "description": "Due to being a weather pony, you have a 50% increase in flight speed.",
+    "type": "origins:modify_air_speed",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 1.5
+        }
+}

@@ -1,6 +1,6 @@
 {
     "name": "Mimic <Prestiged>",
-    "description": "Reinforced by a Nether Star, Mimic’s downsides are reduced, though water still remains a threat. Exhaustion builds slower, no longer causing blindness at 25%, and recovery is improved. Storage capacity is increased in the chest shell. Immune to poison and fall damage, but still vulnerable to water. Keep moving carefully and devour treasure to heal.",
+    "description": "Reinforced by an ammassment of storage,  Mimic’s downsides are reduced, though water still remains a threat. Exhaustion builds slower, no longer causing blindness at 25%, and recovery is improved. Storage capacity is increased in the chest shell. Immune to poison and fall damage, but still vulnerable to water. Keep moving carefully and devour treasure to heal.",
     "unchoosable": true,
     "icon": {
       "item": "dweebscape_origins:mimicitem"
